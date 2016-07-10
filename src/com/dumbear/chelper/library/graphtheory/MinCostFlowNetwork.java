@@ -47,7 +47,7 @@ public class MinCostFlowNetwork {
         }
     }
 
-    public void flow(int from, int to) {
+    public void maxFlow(int from, int to) {
         flow = 0;
         cost = 0;
         while (true) {
@@ -63,7 +63,8 @@ public class MinCostFlowNetwork {
             }
         }
     }
-    int flowOnce(int from, int to) {
+
+    private int flowOnce(int from, int to) {
         int[] d = new int[n], bfs = new int[n], hash = new int[n];
         Arrays.fill(d, Integer.MAX_VALUE);
         hash[from] = 1;

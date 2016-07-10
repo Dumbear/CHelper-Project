@@ -31,7 +31,7 @@ public class BearGridRect {
             sumCnt += cnt[i];
             g.insert(N * 2 + i, N * 2 + m + i, cnt[i], -1);
         }
-        g.flow(from, to);
+        g.maxFlow(from, to);
         if (g.flow != N || g.cost != -sumCnt) {
             return new int[]{-1};
         }
