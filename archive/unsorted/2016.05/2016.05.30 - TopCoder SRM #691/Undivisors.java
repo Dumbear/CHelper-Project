@@ -1,4 +1,4 @@
-package com.dumbear.chelper;
+package com.dumbear.chelper.workspace;
 
 import com.dumbear.chelper.library.util.PolynomialEncoder;
 

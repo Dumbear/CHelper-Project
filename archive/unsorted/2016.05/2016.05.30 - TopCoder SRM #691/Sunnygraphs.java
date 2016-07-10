@@ -1,4 +1,4 @@
-package com.dumbear.chelper;
+package com.dumbear.chelper.workspace;
 
 public class Sunnygraphs {
     public long count(int[] a) {

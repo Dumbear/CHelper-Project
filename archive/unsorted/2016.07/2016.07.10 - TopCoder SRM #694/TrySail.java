@@ -1,4 +1,4 @@
-package com.dumbear.chelper;
+package com.dumbear.chelper.workspace;
 
 public class TrySail {
     private static final int MAX_STRENGTH = 256;

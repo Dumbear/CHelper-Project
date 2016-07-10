@@ -1,4 +1,4 @@
-package com.dumbear.chelper;
+package com.dumbear.chelper.workspace;
 
 public class LinenCenter {
     static final int MODULO = 1000000009;

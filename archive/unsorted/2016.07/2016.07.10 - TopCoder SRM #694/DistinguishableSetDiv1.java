@@ -1,4 +1,4 @@
-package com.dumbear.chelper;
+package com.dumbear.chelper.workspace;
 
 public class DistinguishableSetDiv1 {
     public int count(String[] answer) {
